@@ -1,0 +1,47 @@
+/*basic reset*/
+*{
+  margin: 0;
+  padding: 0;
+
+  /*Better text styling*/
+  font: bold 14px Arial, sans-serif;
+}
+
+html{
+  heigth  100%;
+  background: black;
+  background: radial-gradtient(circle, #fff 20%, #ccc);
+  background-size: cover;
+}
+
+#calculator{
+  width: 325px;
+  height: auto;
+
+  margin: 100px auto;
+  padding: 20px 20px 9px;
+
+  background: #9dd2ea;
+  background: linear-gradient(#9dd2ea, #8bceec);
+  border-radius: 3px;
+  box-shadow: 0 4px #09def4
+}
+
+/*Top portion*/
+.top span.clear{
+  float: left;
+}
+
+/*Inset shadow on the screen to create indent*/
+.top .screen{
+  height: 40px;
+  width: 212px;
+
+  float: right;
+
+  padding: 0 10px;
+
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  box-shadow: inset 0 4px rbga(0,0,0,0.2);
+}
